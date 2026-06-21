@@ -53,3 +53,9 @@
 - DBD JD IDGAD
 
 <img width="782" height="329" alt="v2 3 Info5" src="https://github.com/user-attachments/assets/20ddca96-6133-41c4-94ca-af36cf00f9fc" />
+
+### Hair Guides
+
+*These are alpha textures for use it as a guide designed to can be applied with custom hairs node and/or shader, it's for remap (Swap) your hair models, this process can be done in UV Editing in Blender; for being append, you have to go in 'Image' folder; HairGuide_IRS it's a texture made for IRS texture made from Bubba, but it needs to be imported maually (IRS.png inside 'Image' folder) using a 'Texture Image' node and connect it in any IDGAD shader*
+
+<img width="132" height="242" alt="v2 3 SS3" src="https://github.com/user-attachments/assets/744508a9-e7c3-4845-9a03-2fb18e32b5e9" /> <img width="167" height="99" alt="v2 3 SS4" src="https://github.com/user-attachments/assets/eeddfb1c-14b3-4e14-aeb3-a08387706cae" />
