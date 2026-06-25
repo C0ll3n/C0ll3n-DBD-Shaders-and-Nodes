@@ -41,7 +41,7 @@
 
 <img width="915" height="225" alt="v2 3 5SS11" src="https://github.com/user-attachments/assets/60b63c19-ca6f-4903-8bb5-6116f93338df" />
 
-### Extra node groups
+### Extra Node Groups
 
 *These are groups of nodes that function as additional add-ons: “Sun Damage” adds a gradient to “DBD Face Sun Damage” within Bubba's nodes, leaving a visible mark along the edges; “Texture Color Influence” is only for editing colors, saturations, etc., of a color texture (BC); “Custom Tip/Root Color” is only useful on hair whose UVs' have been changed—such as Legacy wigs—to use IDGAD shaders or the dedicated Hair Styles shader, and "DBD JD IDGAD" is a node group made by JD that only work for Bubba shaders that expect those inputs (Specular, Roughness, and Scatter)*
 
@@ -68,9 +68,9 @@
 
 ## Usage Examples
 
-### C0ll3n DBD Hair (IDGAD/Legacy)
+### Dedicated Shader
 
-- IDGAD
+- C0ll3n DBD Hair (IDGAD)
 <img width="835" height="654" alt="image" src="https://github.com/user-attachments/assets/f4d7afaf-5981-44f8-abc0-d51ace4293bd" />
 
 *In this shader, you can connect textures directly. Everything else is handled by the shader itself without needing to add anything extra, unless you want to experiment. However, what I consider necessary for customization is already built in.*
@@ -85,7 +85,7 @@
 
 *I will provide a more detailed manual later explaining its use and the function of each parameter.*
 
-- Legacy
+- C0ll3n DBD Hair (Legacy)
 <img width="782" height="794" alt="image" src="https://github.com/user-attachments/assets/b6b22957-0932-411e-ad2b-73a376facd0f" />
 
 *Legacy is quite different because it uses its textures independently, unlike IDGAD, which uses packaged textures. Therefore, it requires more textures to complete a setup.*
@@ -126,3 +126,10 @@
 *The simplified version also features adaptability sockets that can be used with both Bubba's and Lance Quen's IDGAD shaders, as well as their Legacy versions.*
 
 *The question is: Are they necessary? This depends on your purpose in terms of appearance, as each shader works differently and is only similar in some aspects.*
+
+### Parallax/Offset
+
+- C0ll3n Parallax/Offset [Inputs & Outputs]
+<img width="1403" height="783" alt="image" src="https://github.com/user-attachments/assets/05633675-e471-4ca1-b005-203381569f48" />
+
+*These would be perhaps the most complex nodes to understand how they should be connected, but for this I created entries that adapt their function in DBD Hair and Hair Composite.*
