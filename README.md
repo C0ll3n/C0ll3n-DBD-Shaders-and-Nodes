@@ -163,7 +163,7 @@
 *And finally, this would be the example for any IDGAD shader as long as it has its respective compatible inputs.*
 
 - C0ll3n Simple Parallax
-<img width="1394" height="883" alt="image" src="https://github.com/user-attachments/assets/baa07e05-2b3b-458b-98f7-2a42ade7dd80" />
+<img width="1715" height="886" alt="image" src="https://github.com/user-attachments/assets/8316add9-4777-4ee2-bf84-cb35cd46d4e7" />
 
 *The method for connecting the simple version is simply to connect it to each texture that works in the shader, regardless of which one it is.*
 
@@ -185,6 +185,31 @@
 *This node grup is exclusively for use in combination with Bubba's 'DBD Face Sun Damage' shaders. Its function is simply to degrade the edges of the effect so that they are not sharply defined. This is very noticeable at high intensities in the configuration, but at low intensities, it will only remain as an added detail.*
 
 - DBD JD IDGAD
-<img width="1225" height="698" alt="image" src="https://github.com/user-attachments/assets/5019254d-e6d5-4f35-992d-24bed837c8a9" />
+<img width="1332" height="830" alt="image" src="https://github.com/user-attachments/assets/52758a9c-1915-47f6-a953-4cb15759775b" />
 
 *This node group was previously exclusive to IRS textures, but it can be used without issue for IDGAD textures. It allows for more detailed control of parameters such as Roughness, Specular, and Scatter Values. It also allows the connection of RootTip Masks. This is an example of how to connect this node group.*
+
+### Hair Guides
+
+- Textures Alpha Guides + IRS
+<img width="715" height="144" alt="image" src="https://github.com/user-attachments/assets/12b13ca5-c7e3-4528-a3e0-4959856cafa3" />
+
+*These textures are Alphas that must be imported from 'Image'. Their purpose is to use them as guides to remap (swap) the original UVs and replace them with these. This process can only be done from the UV Editor.*
+
+<img width="940" height="440" alt="image" src="https://github.com/user-attachments/assets/4a41f8c6-95bd-4672-bcb7-25adac4c0fe8" />
+
+*After you've appened it, you need to create a node like this.*
+
+<img width="357" height="423" alt="image" src="https://github.com/user-attachments/assets/cc16fa38-9d57-4bbd-98cb-0cb924ac3370" />
+
+*And then search for the guide texture you have chosen from the same 'Image Texture' node*
+
+<img width="928" height="451" alt="image" src="https://github.com/user-attachments/assets/d20861db-6ef7-427b-b8eb-a5f6f47f5c10" />
+
+*Then you'll get something like this.*
+
+<img width="1439" height="707" alt="image" src="https://github.com/user-attachments/assets/af514a1e-c497-4bcd-bdd8-786aae8e0e61" />
+
+*And just go to 'UV Editing', just try to make correct groupings depending on the location of the strand; that is, look at where you place each UV according to the hair density you think is necessary. For example, the bottom layers should be the densest, the outermost layers should have the least hair density. In another file later, I will make a tutorial detailing this. And lastly, if you want to preserve the color order used by the Root Color, you should do the remap in a secondary UV, that is, by adding another UV in the 'Data' section within 'Properties'.*
+
+
